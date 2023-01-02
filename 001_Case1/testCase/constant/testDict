@@ -1,0 +1,47 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  10
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      ascii;
+    class       dictionary;
+    location    "constant";
+    object      testDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+someWord testStringInfomation;
+
+someLable 1287;
+
+someScalar 0.01;
+
+someBool on;
+
+someVector (12 15.5 16.7);
+
+someTensor
+(
+    1 2 3
+    4 5 6
+    7 8 9
+);
+
+someList
+(
+    0
+    1
+    2
+);
+
+someHashTable
+(
+    key0 (0 0 0)
+    key1 (1 0 0)
+);
+
+// ************************************************************************* //
