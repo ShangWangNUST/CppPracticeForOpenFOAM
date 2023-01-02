@@ -1,0 +1,3 @@
+SOURCE += Case0.C
+
+EXE = $(FOAM_USER_APPBIN)/Case0
