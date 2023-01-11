@@ -1,3 +1,0 @@
-SOURCE += 004_Case4.C
-
-EXE = $(FOAM_USER_APPBIN)/004_Case4

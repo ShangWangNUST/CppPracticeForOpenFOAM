@@ -1,0 +1,5 @@
+#!/bin/sh
+
+blockMesh | tee log.blockMesh
+
+004_Case4 testDict 12.8 -someInt 100 -dict constant > log.004_Case4

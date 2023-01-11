@@ -1,0 +1,44 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  8
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 8-30b264cc33cd
+Exec   : 004_Case4 testDict 12.8 -someInt 100 -dict constant
+Date   : Jan 11 2023
+Time   : 12:30:23
+Host   : "shuoyue"
+PID    : 5651
+I/O    : uncollated
+Case   : /home/shuoyue/OpenFOAM/shuoyue-10/run/CppPracticeForOpenFOAM/004_Case4/testCase
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Reading field p
+Got argument infomation as follows:
+someWord = testDict
+someScalar = 12.8
+
+Got an override flag for dictionary path
+The dictionary contents are as follows:
+
+{
+    nu              [ 0 2 -1 0 0 0 0 ] 0.01;
+    someWord        这是测试字典文件中的所有文本信息;
+}
+
+
+Boolean switch set to 0
+Integer option value 100
+
+End
+
