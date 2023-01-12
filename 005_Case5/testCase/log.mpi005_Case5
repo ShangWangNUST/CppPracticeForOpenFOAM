@@ -1,0 +1,96 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  10
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 10
+Exec   : 005_Case5 -parallel
+Date   : Jan 13 2023
+Time   : 00:37:19
+Host   : "shuoyue"
+PID    : 2642
+I/O    : uncollated
+Case   : /home/shuoyue/OpenFOAM/shuoyue-10/run/CppPracticeForOpenFOAM/005_Case5/testCase
+nProcs : 4
+Slaves : 
+3
+(
+"shuoyue.2645"
+"shuoyue.2646"
+"shuoyue.2647"
+)
+
+Pstream initialised with:
+    floatTransfer      : 0
+    nProcsSimpleSum    : 0
+    commsType          : nonBlocking
+    polling iterations : 0
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+[3] cellNumber[processor=3] = 100
+[3] meshVolume[processor=1] = 2.5e-05
+[0] cellNumber[processor=0] = 100
+[1] cellNumber[processor=1] = 100
+[1] meshVolume[processor=1] = 2.5e-05
+[2] cellNumber[processor=2] = 100
+[2] meshVolume[processor=1] = 2.5e-05
+[0] meshVolume[processor=1] = 2.5e-05
+[3] Mesh volume on this processor is now 0.0001
+totalMeshVolume = 0.0001, totalCellNumber = 400
+[0] Mesh volume on this processor is now 0.0001
+[2] Mesh volume on this processor is now 0.0001
+[1] Mesh volume on this processor is now 0.0001
+nInternalFaces[processor=0] = 175, nBoundaryPatches[processor=0] = 4
+nInternalFaces[processor=1] = 175, nBoundaryPatches[processor=1] = 5
+nInternalFaces[processor=2] = 175, nBoundaryPatches[processor=2] = 5
+nInternalFaces[processor=3] = 175, nBoundaryPatches[processor=3] = 4
+[0] Patch = 0, name = movingWall
+[0] Patch = 1, name = fixedWalls
+[0] Patch = 2, name = frontAndBack
+[0] Patch = 3, name = procBoundary0to1
+[0] Patch = 3, name = procBoundary0to1---> a processor boundary!
+Reading physicalProperties
+
+Reading field p
+
+Reading field U
+
+Reading controlDict
+
+[2] Patch = 0, name = movingWall
+[2] Patch = 1, name = fixedWalls
+[2] Patch = 2, name = frontAndBack
+[2] Patch = 3, name = procBoundary2to1
+[2] Patch = 4, name = procBoundary2to3
+[2] Patch = 3, name = procBoundary2to1---> a processor boundary!
+[2] Patch = 4, name = procBoundary2to3---> a processor boundary!
+[3] Patch = 0, name = movingWall
+[3] Patch = 1, name = fixedWalls
+[3] Patch = 2, name = frontAndBack
+[3] Patch = 3, name = procBoundary3to2
+[3] Patch = 3, name = procBoundary3to2---> a processor boundary!
+[1] Patch = 0, name = movingWall
+[1] Patch = 1, name = fixedWalls
+[1] Patch = 2, name = frontAndBack
+[1] Patch = 3, name = procBoundary1to0
+[1] Patch = 4, name = procBoundary1to2
+[1] Patch = 3, name = procBoundary1to0---> a processor boundary!
+[1] Patch = 4, name = procBoundary1to2---> a processor boundary!
+writeInterval = 20
+
+Starting time loop
+
+
+ExecutionTime = 0.076312 s  ClockTime = 1 s
+
+End
+
+Finalising parallel run
