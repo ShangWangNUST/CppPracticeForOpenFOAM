@@ -1,0 +1,38 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  10
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 10
+Exec   : 006_Case6
+Date   : Jan 19 2023
+Time   : 14:22:24
+Host   : "shuoyue"
+PID    : 7732
+I/O    : uncollated
+Case   : /home/shuoyue/OpenFOAM/shuoyue-10/run/CppPracticeForOpenFOAM/006_Case6/testCase
+nProcs : 1
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+dfaultValue = 0
+newValue = 12
+Calling myClass::calcArea()
+radius = 12, area = 452.389
+myClass got a mesh, cellNum = 400
+Yet another value = 400
+Created a viscosity scalar: nu [0 2 -1 0 0 0 0] 0.01
+Tokens in the file:
+	nu
+
+ExecutionTime = 0.007119 s  ClockTime = 0 s
+
+End
+

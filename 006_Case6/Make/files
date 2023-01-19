@@ -1,0 +1,5 @@
+myClass.C
+derivedClass.C
+006_Case6.C
+
+EXE = $(FOAM_USER_APPBIN)/006_Case6

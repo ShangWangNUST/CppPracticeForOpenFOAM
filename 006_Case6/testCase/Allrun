@@ -1,0 +1,4 @@
+#!/bin/sh
+
+blockMesh > log.blockMesh
+006_Case6 > log.006_Case6
