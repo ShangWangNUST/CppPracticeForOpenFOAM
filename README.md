@@ -7,7 +7,7 @@
 
 ---
 ## 使用方法简介
-本频道中没有 step-by-step 教程，进本的使用方法与 OpenFOAM 中 Case 类似，各个模块相互独立，默认参考本频道的 OpenFOAMer 已经了解了 OpenFOAM 基本算例的运行流程。
+本频道中没有 step-by-step 教程，基本的使用方法与 OpenFOAM 中 Case 类似，各个模块相互独立，默认参考本频道的 OpenFOAMer 已经了解了 OpenFOAM 基本算例的运行流程。
 
 每个模块包括：1）程序源码用以说明该模块功能；2）算例展示程序功能的具体实现。
 
